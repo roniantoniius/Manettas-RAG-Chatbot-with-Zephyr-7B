@@ -1,14 +1,24 @@
 # Manettas Online Seafood Market Chatbot
+
+![image](https://github.com/roniantoniius/Manettas-RAG-Chatbot-with-Zephyr-7B/assets/121453378/9b947343-d021-45bb-a74e-ff92573d5be3)
+
+
 ## Context
 
 In today's dynamic online seafood retail landscape, businesses face challenges related to consumer preferences, accessibility, and promoting healthy eating habits. Manettas, an online marketplace in Australia offering a variety of fresh seafood products, aims to enhance customer experience by addressing these issues. Ensuring accessibility to seafood for consumers in landlocked areas and encouraging seafood consumption among children are significant concerns. To tackle these, we developed a chatbot using the Zephyr 7B β model from Hugging Face. This chatbot leverages Retrieval-Augmented Generation (RAG) through LangChain to provide real-time, detailed responses to customer inquiries about Manettas' seafood products. By offering relevant product recommendations and comprehensive information, the chatbot aims to improve the shopping experience and promote the consumption of high-quality, sustainably sourced seafood.
 
 Preview Dataset .csv:
+![image](https://github.com/roniantoniius/Manettas-RAG-Chatbot-with-Zephyr-7B/assets/121453378/5902314e-ed6a-4857-8577-a067aad4f607)
 
 
 ## RAG: Retrieval-Augmented Generation with Zephyr-7B β
+![RAG Framework](https://github.com/roniantoniius/Manettas-RAG-Chatbot-with-Zephyr-7B/assets/121453378/89861d55-58e2-4842-a5df-f40e16db53af)
+
 
 The proposed solution for the Manettas Online Seafood Market Chatbot utilizes the Retrieval-Augmented Generation (RAG) technique, integrated with the Zephyr-7B β model from Hugging Face. RAG combines both retrieval-based and generation-based approaches to provide informative and contextually relevant responses to user queries/prompt.
+
+![diagram](https://github.com/roniantoniius/Manettas-RAG-Chatbot-with-Zephyr-7B/assets/121453378/31fb08c8-fc92-4176-ad7e-de3815c0490e)
+
 
 ### Retrieval Component
 The retrieval component of RAG is implemented using LangChain, specifically leveraging its document retrieval capabilities. In the implementation, the available product information from Manettas, such as product descriptions, is indexed using Pinecone for efficient retrieval. This retrieval component retrieves relevant documents based on the user's query context, ensuring that the chatbot has access to a wide range of information to generate accurate responses.
@@ -48,6 +58,12 @@ streamlit run steamlit.py
 ```
 
 ## Documentation
+![image](https://github.com/roniantoniius/Manettas-RAG-Chatbot-with-Zephyr-7B/assets/121453378/64d03cc5-525c-404f-86ac-796020ad6f36)
+
+![image](https://github.com/roniantoniius/Manettas-RAG-Chatbot-with-Zephyr-7B/assets/121453378/9531d4df-f2db-4d0c-b0ad-41f1e4055888)
+
+![image](https://github.com/roniantoniius/Manettas-RAG-Chatbot-with-Zephyr-7B/assets/121453378/4ba0820e-becd-4003-ab51-513bbb31bb04)
+
 
 
 
