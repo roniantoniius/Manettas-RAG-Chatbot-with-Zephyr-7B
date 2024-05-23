@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  chatbot:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      - PINECONE_API_KEY=${PINECONE_API_KEY}
+      - HUGGINGFACE_API_KEY=${HUGGINGFACE_API_KEY}
+    volumes:
+      - .:/app
