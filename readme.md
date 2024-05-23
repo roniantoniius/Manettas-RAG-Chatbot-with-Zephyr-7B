@@ -62,9 +62,7 @@ streamlit run steamlit.py
 
 ![image](https://github.com/roniantoniius/Manettas-RAG-Chatbot-with-Zephyr-7B/assets/121453378/9531d4df-f2db-4d0c-b0ad-41f1e4055888)
 
-![image](https://github.com/roniantoniius/Manettas-RAG-Chatbot-with-Zephyr-7B/assets/121453378/4ba0820e-becd-4003-ab51-513bbb31bb04)
-
-
+![image](https://github.com/roniantoniius/Manettas-RAG-Chatbot-with-Zephyr-7B/assets/121453378/33dcc5e8-6c6d-4b41-a394-020d0562731e)
 
 
 ## Deployment
